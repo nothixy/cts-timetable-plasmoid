@@ -119,8 +119,7 @@ PlasmoidItem {
                                 let sorted = times.sort().reverse();
                                 last_repeat.model = sorted.length;
                                 for (let time in sorted) {
-                                    // WHY DOES JS NOT NOW HOW TO ADD NUMBERS USING THE "+" OPERATOR ??? TIME IS
-                                    percentage_opacity = 100.0 * ((parseInt(time, 10) - -1) / sorted.length);
+                                    percentage_opacity = 100.0 * ((parseInt(time, 10) + 1) / sorted.length);
                                     target_opacity = (Math.exp(percentage_opacity / 100) - 1) * 100 / (Math.exp(1) - Math.exp(0));
                                     element_opacity = (target_opacity - old_target_opacity) / (100 - old_target_opacity);
                                     old_target_opacity = target_opacity;
