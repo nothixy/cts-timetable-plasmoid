@@ -18,7 +18,7 @@ This widget needs an API key from CTS, you can request one at https://www.cts-st
 
 Once you have your API key, just paste in the "Token" field of the configuration module
 
-You can then monitor stops by their IDs. To list all available stops, run
+You can then monitor stops by their StopCode or LogicalStopCode. To list all available stops, run
 ```bash
 # Replace MY_TOKEN with your API key
 curl -u "<MY_TOKEN>:" https://api.cts-strasbourg.eu/v1/siri/2.0/stoppoints-discovery
