@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "fl.valentin1904@gmail.com",
+                "Name": "nothixy"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "CTS (Compagnie des Transports de Strasbourg) live timetable for a stop",
+        "Icon": "clock",
+        "Id": "tk.hixy.ctstimetable",
+        "Name": "CTS timetable",
+        "Version": "1",
+        "Website": "https://github.com/nothixy/ctstimetable",
+        "BugReportUrl": "https://github.com/nothixy/ctstimetable"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "mainscript": "ui/main.qml",
+    "KPackageStructure": "Plasma/Applet"
+}
