@@ -1,5 +1,8 @@
 # CTS Timetable widget
 
+> [!Warning]  
+> This project is not affiliated with the Compagnie des Transports Strasbourgeois. Please do not contact them for any problem related to this widget.
+
 ![Screenshot](./screenshot/screenshot.png)
 
 ## How to install
@@ -16,7 +19,7 @@ Then log out and log back in, you should now be able to add the widget.
 
 This widget needs an API key from CTS, you can request one at https://www.cts-strasbourg.eu/fr/portail-open-data/
 
-Once you have your API key, just paste in the "Token" field of the configuration module
+Once you have your API key, just paste it in the "Token" field of the configuration module
 
 You can then monitor stops by their StopCode or LogicalStopCode. To list all available stops, run
 ```bash
