@@ -9,15 +9,15 @@
 
 ```bash
 git clone https://github.com/nothixy/cts-timetable-plasmoid
-cd cts-timetable-plasmoid/package
-plasmapkg2 -i .
+cd cts-timetable-plasmoid
+kpackagetool6 --type=Plasma/Applet -i package
 ```
 
 Then log out and log back in, you should now be able to add the widget.
 
 ## Configuration
 
-This widget needs an API key from CTS, you can request one at https://www.cts-strasbourg.eu/fr/portail-open-data/
+This widget needs an API key from CTS, you can request one at https://www.cts-strasbourg.eu/fr/open-data/
 
 Once you have your API key, just paste it in the "Token" field of the configuration module
 
